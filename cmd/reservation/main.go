@@ -114,6 +114,7 @@ func HandleTravelHistory(name, trainName, trainNumber, travelDate, travelDay, tr
 
 func main() {
 
+	ShowPassengerTable()
 	//'get' subcommand
 	getCmd := flag.NewFlagSet("get", flag.ExitOnError)
 

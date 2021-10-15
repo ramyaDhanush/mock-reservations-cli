@@ -12,26 +12,26 @@ type Location struct {
 }
 
 type TravelHistory struct {
-	TrainName   string `json:"train-name,omitempty"`
-	TrainNumber string `json:"train-number,omitempty"`
-	Date        string `json:"date,omitempty"`
-	Day         string `json:"day,omitempty"`
-	Time        string `json:"time,omitempty"`
+	TrainName   string   `json:"train-name,omitempty"`
+	TrainNumber string   `json:"train-number,omitempty"`
+	Date        string   `json:"date,omitempty"`
+	Day         string   `json:"day,omitempty"`
+	Time        string   `json:"time,omitempty"`
 	Location    Location `json:"location,omitempty"`
-	TravelClass string `json:"travel-class,omitempty"`
+	TravelClass string   `json:"travel-class,omitempty"`
 }
 
 type Passenger struct {
-	Name          string `json:"name"`
-	Age           int    `json:"age"`
-	Gender        string `json:"gender"`
-	AadhaarNo     string `json:"aadhaar-no"`
+	Id            int32          `json:"id"`
+	Name          string          `json:"name"`
+	Age           int             `json:"age"`
+	Gender        string          `json:"gender"`
+	AadhaarNo     string          `json:"aadhaar-no"`
 	TravelHistory []TravelHistory `json:"travel-history,omitempty"`
 }
 
-
 // GetPassengerDetails - To get the list of existing passenger info
-func GetPassengerDetails()(passenger []Passenger) {
+func GetPassengerDetails() (passenger []Passenger) {
 	fileBytes, err := ioutil.ReadFile("../api/passenger.json")
 	if err != nil {
 		fmt.Println(err, fileBytes)
