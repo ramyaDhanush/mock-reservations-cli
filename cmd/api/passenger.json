@@ -1,0 +1,84 @@
+[
+  {
+    "aadhaar-no": "2137-8332-1231",
+    "age": 12,
+    "gender": "M",
+    "name": "john",
+    "travel-history": [
+      {
+        "train-name": "Chennai Express",
+        "train-number": "20267",
+        "date": "12-8-2021",
+        "day": "Monday",
+        "time": "2006-01-02T15:04:05Z07:00",
+        "location": {
+          "from": "chennai",
+          "to": "kashmir"
+        },
+        "travel-class": "SL"
+      },
+      {
+        "train-name": "Cheran Express",
+        "train-number": "202612",
+        "date": "19-8-2021",
+        "day": "Wednesday",
+        "time": "2006-01-02T15:04:05Z07:00",
+        "location": {
+          "from": "madurai",
+          "to": "theni"
+        },
+        "travel-class": "SL"
+      }
+    ]
+  },
+  {
+    "aadhaar-no": "2137-7832-1231",
+    "age": 34,
+    "gender": "F",
+    "name": "doe",
+    "travel-history": [
+      {
+        "train-name": "Chennai Express",
+        "train-number": "20267",
+        "date": "12-8-2021",
+        "day": "Monday",
+        "time": "2006-01-02T15:04:05Z07:00",
+        "location": {
+          "from": "chennai",
+          "to": "kashmir"
+        },
+        "travel-class": "SL"
+      },
+      {
+        "train-name": "Cheran Express",
+        "train-number": "202612",
+        "date": "19-8-2021",
+        "day": "Monday",
+        "time": "2006-01-02T15:04:05Z07:00",
+        "location": {
+          "from": "madurai",
+          "to": "chennai"
+        },
+        "travel-class": "SL"
+      }
+    ]
+  },
+  {
+    "aadhaar-no": "1232-2132-2132",
+    "age": 12,
+    "gender": "F",
+    "name": "sophie",
+    "travel-history": [
+      {
+        "train-name": "dfad",
+        "train-number": "21333",
+        "date": "=11/12/2021",
+        "location": {
+          "from": "Chennai",
+          "to": "Coimbatore"
+        }
+      }
+    ]
+  },
+  { "name": "sophie", "age": 12, "gender": "F", "aadhaar-no": "1232-2132-2132" }
+]
