@@ -15,14 +15,13 @@ type TravelHistory struct {
 	TrainName   string   `json:"train-name,omitempty"`
 	TrainNumber string   `json:"train-number,omitempty"`
 	Date        string   `json:"date,omitempty"`
-	Day         string   `json:"day,omitempty"`
 	Time        string   `json:"time,omitempty"`
 	Location    Location `json:"location,omitempty"`
 	TravelClass string   `json:"travel-class,omitempty"`
 }
 
 type Passenger struct {
-	Id            int32          `json:"id"`
+	Id            int          `json:"id"`
 	Name          string          `json:"name"`
 	Age           int             `json:"age"`
 	Gender        string          `json:"gender"`
