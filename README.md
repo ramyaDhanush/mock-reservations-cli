@@ -10,7 +10,7 @@ A golang application to mock the train reservation system
    
 **Usage**
 
-1. Move to cmd/reservation directory
+1. Move to `cmd/reservation` directory
 2. Run `go mod init` & `go mod tidy` to create `go.mod` & `go.sum` files
 3. Run the cmd.exe file with flags
   - get 
